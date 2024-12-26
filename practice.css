@@ -1,0 +1,21 @@
+*{
+    margin: 5px;
+}
+h3{
+    color: orangered
+    
+}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+}
+.science{
+    color: blueviolet;
+}
+.image{
+    height: 200px;
+    width: 400px;
+    border:5px solid yellow;
+    box-shadow: 10px 20px 20px wheat;
+
+}

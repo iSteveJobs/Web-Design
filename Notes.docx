@@ -1,0 +1,27 @@
+
+paragraph: <p> </p>
+
+semantic --> meaningful(important)
+
+
+bold: <b></b> (non-semantic); <strong></strong> (semantic);
+
+italic: <i></i>(non-semantic) ; <em></em> (semantic)
+
+heading: h1-h6 <h1></h1>
+
+small: <small> </small>
+
+inline --> in a line: strong, em, i, small, span 
+block --> p, h1, div
+
+Learn CSS measuring unit: px, em, rem, vw, vh, vmin, vmax, %
+
+    selector
+    tag: sobaike nia style korbe
+    id: 1 jon re nia kaj korbe
+    class: kisu jon nia kaj korbe
+    group selector: h, p{color: ; background-color: ;}
+
+
+
