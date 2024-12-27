@@ -23,5 +23,48 @@ Learn CSS measuring unit: px, em, rem, vw, vh, vmin, vmax, %
     class: kisu jon nia kaj korbe
     group selector: h, p{color: ; background-color: ;}
 
+    for playing audio and video:
+    <audio controls src="ekhane link deo"></audio>
+
+    <video controls width="400px" height="400px" src="ekhane link deo"></video>
+
+    youtube video website a play korte chaile__video, share, embeded--copy and paste to the html file---done
+
+    also iframe use kore, anther website keo dekhatie pari
+     <iframe src="" frameborder="0"></iframe>
+
+     html5 body structure:
+
+<body>
+    <header>
+       <nav>
+         <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+         </ul>
+       </nav>
+    </header>
+    <main>
+        <article>
+            <header>
+               <h2></h2>
+               <p></p>
+            </header>
+            <figure>
+
+            </figure>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p><small>all right reserved</small></p>
+    </footer>
+</body>
+
 
 

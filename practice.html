@@ -3,61 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
+    <title>form</title>
     <link rel="stylesheet" href="practice.css">
-
-    <link rel="shortcut icon" href="https://cdn.vectorstock.com/i/1000x1000/96/58/practice-icon-simple-element-from-creativity-vector-34579658.webp" type="image/x-icon">
 </head>
 <body>
-    <h3>This is Practice Session</h3>
-    <div>
-        <p class="para first">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi perspiciatis unde quis harum, nostrum corrupti, ipsam eligendi cumque eum quas ducimus minima saepe nihil quaerat, reiciendis pariatur! Ut tempora quasi beatae soluta fuga quam et non dicta, mollitia odit facilis nihil iure at odio placeat blanditiis accusamus iste vitae doloribus.
-        </p>
-        <p class="para second">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum inventore est voluptate ipsam veritatis eligendi aliquid nesciunt delectus, iure omnis quidem voluptatem deleniti odit quis officiis fugit, eos nemo. Tempora natus sed dolores commodi nemo autem distinctio eveniet reprehenderit. Dolore?
-        </p>
-        <p class="para third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quia maiores similique blanditiis, ex, minus suscipit praesentium at dignissimos aut minima facere eum earum quo. Amet dicta dolores deserunt nisi.</p>
-    </div>
-    <div>
-        <h3>Unorder List</h3>
-        <ul>
-            <li>c</li>
-            <li>c++</li> 
-            <li>python</li>
-        </ul>
-        <h3>Order List</h3>
-        <ol>
-            <li>bangla</li>
-            <li>english
-                <ul>
-                    <li>english fist paper</li>
-                    <li>english second paper</li>
-                </ul>
-            </li>
-            <li>math</li>
-            <li class="science">science
-                <img class="image" src="https://thumbs.dreamstime.com/z/science-lab-chemicals-14262437.jpg?ct=jpeg" alt="failed">
-                <ul>
-                    <li>physics</li>
-                    <li>chemistry</li>
-                    <li>biology</li>
-                </ul>
-            </li>
-        </ol>
-    </div>
-    <div>
-        <h3>Login</h3>
-        <form action="">
-            <input type="email" placeholder="Enter Your E-mail" name="" id=""> <br><br>
-            <input type="password" placeholder="Enter Your Password" name="" id=""> <br> <br>
-            <select name="" id="">
-                <option value="higher math">Higher Math</option>
-                <option value="agri">Agriculture</option>
-
-            </select>
-            <input type="submit" value="submit">
-        </form>
-    </div>
+    <header>
+       
+    </header>
+    <main>
+       <section>
+         <h2>Fill Up The Form</h2>
+         <form action="">
+            <label for="name">Your Name: 
+                <input type="text" placeholder="Enter Your Name" name="" id="name">
+            </label>
+            <label for="email">Your Email: 
+                <input type="email" placeholder="Enter Your E-mail" name="" id="email">
+            </label>
+            <label for="phone">Your Phone: 
+                <input type="number" placeholder="Enter Your Mobile Number" name="" id="phone">
+            </label>
+            <fieldset>
+                <legend>Pick One Pitha</legend>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="chitoy">Chitoy
+                </label>
+                <label for="vapa">
+                    <input type="radio" name="pitha" id="vapa">Vapa
+                </label>
+                <label for="puri">
+                    <input type="radio" name="pitha" id="puri">Puri
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Pick one or more vorta</legend>
+                <label for="sorisha">
+                    <input type="checkbox" name="vorta" id="sorisha">Sorisha
+                </label>
+                <label for="sutki">
+                    <input type="checkbox" name="vorta" id="sutki">Sutki
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Instruction</legend>
+                <textarea name="" id="" cols="30" rows="3"></textarea>
+            </fieldset>
+            <input type="reset" value="RESET">
+            <input type="submit" value="Submit">
+         </form>
+       </section>
+    </main>
+    <footer>
+        <p><small>all right reserved &copy 2024</small></p>
+    </footer>
 </body>
 </html>
