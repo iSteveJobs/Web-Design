@@ -67,4 +67,22 @@ Learn CSS measuring unit: px, em, rem, vw, vh, vmin, vmax, %
 </body>
 
 
+List of HTML5 Tags/Elements:
+https://www.tutorialrepublic.com/html-reference/html5-tags.php
+
+important: a, articles, aside, audio, b, body, br, button, div, em, footer, form, head, header, h1-h6, html, image, input, li, ol, legend, link, main, nav, p, script, section, selection, select, small, span, style,table, tbody, th, title, thead, 
+
+sometimes need: address, area, base, bdi, canvas, cite, code, col, data, datalist, embeded, figure, figcaption, map, sub, sup, option
+
+
+List of HTML5 Attribute:
+https://www.w3schools.com/tags/ref_attributes.asp
+
+important: alt, class, data*, form, height, href, id, name
+
+sometimes need:accept, action, async, autocomplete, autofocus, autoplay, checked, cite, cols, controls, default, disabled, download, dragable, headers, label, max, min, select, style, title, value, width, wrap
+
+
+
+
 

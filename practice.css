@@ -1,10 +1,15 @@
-footer{
-    text-align: center;
-}
 label{
     display: block;
     margin-bottom: 10px;
+    margin-left: 20px;
 }
-fieldset{
-    margin-bottom: 10px;
+section{
+    background-color: blueviolet;
+}
+div{
+    display: inline;
+}
+.submit{
+    color: white;
+    background-color: blue;
 }
