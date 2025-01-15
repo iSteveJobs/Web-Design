@@ -1,0 +1,25 @@
+h3::after{
+    content: '.pdf';
+    color: purple;
+    background-color: aqua;
+    font-size: 10px;
+}
+
+h3::before{
+   content: 'start: '; 
+   color: red;
+   background-color: wheat;
+   font-size: 12px;
+}
+
+p::first-letter{
+    font-size: 2em;
+}
+
+p::first-line{
+    background-color: aquamarine;
+}
+ /* 1st 2 ta para select kore dekho, and last para select kore dekho */
+.select-back-color::selection{
+    background-color: yellow;
+}

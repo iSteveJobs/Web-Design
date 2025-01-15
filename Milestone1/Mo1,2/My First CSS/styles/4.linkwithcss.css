@@ -1,0 +1,35 @@
+.header{
+    height: 500px;
+    /* background-image: url('desktop-wallpaper-octopus-tenticle-animal-ocean-thumbnail.jpg'); */
+    background-image: url('../images.jpeg');
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-size: 200px; */
+}
+
+h3{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.second{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.blog{
+    margin: 40px;
+    border: 10px solid green;
+    box-shadow: 10px 10px 20px orange;
+}
+.span{
+    background-color: blueviolet;
+    color:yellow;
+    font-size: 20px;
+    border: 2px solid red;
+    height: 60px;
+    /* span hosce inline element; kintu amra chaile block kore use korte pari */
+    display: inline-block;
+}

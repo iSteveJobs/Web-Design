@@ -1,0 +1,29 @@
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    /* border: 2px solid tomato; */
+}
+.login-form input{
+    margin-top: 20px;
+}
+
+.login-form-container{
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid aqua; */
+    height: 90vh;   /* ei line and nicher line ek ek kore likho r magic dekho*/
+    align-items: center;
+   
+}

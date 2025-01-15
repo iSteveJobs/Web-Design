@@ -1,39 +1,49 @@
-/* common shared styles */
-body{
-    font-family: "Open Sans", serif;
-    font-weight: 800px;
-}
-
-/* nav related styles */
-nav{
-    display: flex;
-}
-.nav-title{
-   color: #181818; 
-   font-size: 45px;
-   font-weight: 800px;
-}
-
-.text-primary{
-   color: #FD6E0A ; 
-}
-.btn-primary{
+.header, .nav, .article, .sidebar, .advertising, .footer{
+    border: 3px solid tomato;
+    background-color: bisque;
+    padding: 5px;
     border-radius: 5px;
-    background: #FD6E0A ;
-    border: 0;
-
 }
 
-nav > ul{
-    display: flex;
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+.article{
+    grid-area: article;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.advertising{
+    grid-area: advertising;
+}
+.footer{
+    grid-area: footer;
 }
 
-nav li{
-    list-style: none;
-    margin-right: 50px;
+.body{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "header  header    header    header"
+    "nav     article   article   sidebar"
+    "nav     article   article   advertising"
+    "footer  footer    footer     footer"
+    ;
 }
-nav a{
-    text-decoration: none;
-    color: #474747;
+
+@media screen and (max-width: 576px){
+    .body{
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "sidebar"
+        "advertising"
+        "footer"
+        ;
+    }
 }
-  

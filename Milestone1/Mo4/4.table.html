@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <link rel="stylesheet" href="style/4.nav.css">
+    <link rel="stylesheet" href="style/4.table.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="1.audioVideo.html">Audio and Video</a></li>
+                <li><a href="2.blog.html">Blog</a></li>
+                <li><a href="3.form.html">Form</a></li>
+                <li><a href="4.table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <ul>
+            <h3>Table Essential Element</h3>
+            <li>Table: table</li>
+            <li>caption</li>
+            <li>table head: thead
+                <ul>
+                    <li>table row: tr</li>
+                    <li>table header cell data: th</li>
+                </ul>
+            </li>
+            <li>table body: tbody
+                <ul>
+                    <li>table row: tr</li>
+                    <li>table data: td</li>
+                </ul>
+            </li>
+            <li>table footer: tfoot
+                <ul>
+                    <li>colspan 3; as you want to increase column</li>
+                    <li>rowspan 3; as you want to increase row</li>
+                </ul>
+            </li>
+            <li>table row: tr</li>
+            <li>table data: td</li>
+            <li>table header cell: th</li>
+        </ul>
+        <table>
+            <caption>Employee Salary Table</caption>
+            <thead>
+               <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founter Microsoft</td>
+                <td>$1000</td>
+               </tr>
+               <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founter Apple</td>
+                <td>$1200</td>
+               </tr>
+               <tr>
+                <td>3</td>
+                <td>larry Page</td>
+                <td>Founter "Google"</td>
+                <td>$1100</td>
+               </tr>
+               <tr>
+                <td>4</td>
+                <td>Mark Zuckeberg</td>
+                <td>Founder Facebook</td>
+                <td>1300</td>
+               </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total Employee: 4</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>

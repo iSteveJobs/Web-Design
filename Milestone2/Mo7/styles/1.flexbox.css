@@ -1,0 +1,20 @@
+.container{
+    border: 5px solid orangered;
+    height: 500px;
+    display: flex;
+    /* justify-content: space-between;*/ /*row-wise kaj kore*/
+    /* align-items: center; */ /*column-wise kaj kore*/
+     
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+
+}
+
+.box{
+    border: 2px dashed tomato;
+    width: 300px;
+    height: 200px;
+}

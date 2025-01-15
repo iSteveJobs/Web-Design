@@ -1,0 +1,29 @@
+
+/* hover means mouse over */
+.make-hover h3:hover{
+      color: blueviolet;
+      background-color: aquamarine;
+}
+/* when we write the input filed color will be changed */
+input:focus{
+    color: blue;
+    /* padding-left: 20px; */
+    outline: 0;
+    border: 1px solid green;
+}
+
+/* here visited link also blue , before we know unvisited link is different color and visited link is different color */
+a:visited{
+    color: blue;
+}
+/* li:last-child{
+    color: brown;
+} */
+
+/* li:first-child{
+    color: aqua;
+    background-color: black;
+} */
+ li:nth-child(2n){
+    color: purple;
+ }

@@ -1,0 +1,21 @@
+.box{
+    border: 5px dotted orangered;
+    width: 400px;
+    height: 200px;
+}
+/* .ring{
+    position: relative; relative tar nijer position sare na
+    left: 100px;
+    top: 60px;
+} */
+
+/* .ring{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+} */
+
+/* .swim-container{
+    position: relative;
+    border: 5px solid purple;
+} */

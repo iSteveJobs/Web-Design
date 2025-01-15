@@ -1,4 +1,4 @@
-
+﻿
 paragraph: <p> </p>
 
 semantic --> meaningful(important)
@@ -81,6 +81,14 @@ https://www.w3schools.com/tags/ref_attributes.asp
 important: alt, class, data*, form, height, href, id, name
 
 sometimes need:accept, action, async, autocomplete, autofocus, autoplay, checked, cite, cols, controls, default, disabled, download, dragable, headers, label, max, min, select, style, title, value, width, wrap
+
+
+
+css: by defalult
+*{
+   margin: 0;
+   padding: 0;
+ }
 
 
 

@@ -1,0 +1,26 @@
+
+body{
+    border: 3px solid skyblue;
+    max-width: 1140;
+    margin: 0 auto;
+}
+.images-container{
+    display: flex;
+}
+
+.images-container div{
+    width: 50%;
+}
+
+.images-container img{
+    width: 100%;
+}
+
+@media screen and (max-width: 576px){
+    .images-container{
+        flex-direction: column;
+    }
+    .images-container div{
+        width: 100%;
+    }
+}
