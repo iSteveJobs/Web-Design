@@ -28,7 +28,7 @@ Learn CSS measuring unit: px, em, rem, vw, vh, vmin, vmax, %
 
     <video controls width="400px" height="400px" src="ekhane link deo"></video>
 
-    youtube video website a play korte chaile__video, share, embeded--copy and paste to the html file---done
+                  youtube video website a play korte chaile__video, share, embeded--copy and paste to the html file---done
 
     also iframe use kore, anther website keo dekhatie pari
      <iframe src="" frameborder="0"></iframe>
@@ -37,7 +37,7 @@ Learn CSS measuring unit: px, em, rem, vw, vh, vmin, vmax, %
 
 <body>
     <header>
-       <nav>
+               <nav>
          <ul>
             <li><a href="home.html">Home</a></li>
             <li><a href="about.html">About</a></li>
