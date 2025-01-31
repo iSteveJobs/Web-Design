@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.banner-container {
+  height: 805px;
+  background-image: linear-gradient(
+      0deg,
+      #090909 3.48%,
+      rgba(16, 16, 16, 0) 101.63%
+    ),
+    url("../assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  width: 900px;
+}
+
+.banner-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 32px;
+}
+
+.banner-experience {
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 64px;
+}
+.banner-description {
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 18px;
+  width: 1023px;
+}
+.btn-primary {
+  display: flex;
+  padding: 21px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #52c303;
+  border: none;
+}
+.card-box-description-container {
+  display: flex;
+  gap: 24px;
+}
+
+.card-box-container {
+  display: inline-flex;
+  padding: 167px 300px 184px 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 1030px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+.card-box-title {
+  color: #101010;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card-box-experience {
+  color: #101010;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 133.333% */
+  width: 540px;
+}
+.box-image {
+  width: 330px;
+  height: 220px;
+  border-radius: 16px;
+}
+.img-title {
+  color: #101010;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.food-rate {
+  color: #101010;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.food-description{
+  color: #101010;
+text-align: center;
+font-family: "Work Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 155.556% */
+}

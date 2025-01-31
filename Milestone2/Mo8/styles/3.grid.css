@@ -1,23 +1,14 @@
-/* for better understanding */
-.try{
-    margin-bottom: 200px;
+.item{
+    border: 1px solid orchid;
 }
-
-.box{
-    background-color: gray;
-}
-
-
 .container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    /* grid-template-columns: 200px 200px 300px 400px; //joto iccha dite parbo, totota table hobe */
+    /* grid-template-columns: repeat(4, 100px); //uporer kaj tai hobe, loop akare */
+    /* grid-template-columns: repeat(2, 100px) 200px 300px; */
 
-    grid-template-rows: repeat(3, 200px) 50px 50px;
-}
-#box-1{
-    grid-row: span 5;
-}
-#box-11, #box-12{
-  grid-column: span 3;  
+    /* grid-template-columns: repeat(3, 1fr); // 3 ta table nibe and pura jayga jure nibe */
+    /* grid-template-columns: repeat(4, 1fr) 2fr; */
+    grid-template-columns: 200px auto 200px;
+    justify-content: center;
 }
