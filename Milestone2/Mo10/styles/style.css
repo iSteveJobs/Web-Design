@@ -1,20 +1,10 @@
-/* shared */
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
 body {
   font-family: "Work Sans", serif;
-}
-header {
-  background: rgba(255, 144, 14, 0.1);
-  /* padding: 63px 240px 45px 228px; */
-}
-
-.nav-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav-options {
-  display: flex;
-  gap: 50px;
 }
 
 .nav-options li {
@@ -22,9 +12,31 @@ header {
 }
 .nav-options a {
   text-decoration: none;
+  color:#424242;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0 0 228px;
+}
+.nav-options {
+  display: flex;
+  align-items: center;
+  gap: 50px;
 }
 .nav-title {
-  color: var(--Dark-01, #131313);
+  color: #131313;
   text-align: center;
   font-size: 45px;
+}
+@media screen and (max-width: 576px) {
+    .nav-container{
+      flex-direction: column;
+      padding: 0;
+    }
 }
