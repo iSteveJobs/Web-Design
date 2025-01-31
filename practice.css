@@ -1,103 +1,45 @@
-.header {
-  background-color: #fff8f3;
-  background-image: url(images/header_bg.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-image: url(images/developer.png);
-  background-position: left top;
-}
-.color-primary {
-  color: #fd6e0a;
-}
-.btn-primary {
-  color: var(--White-Color, #fff);
-  font-size: 20px;
+.header, .nav, .main, .sidebar, .advertise, .footer{
+  background-color: bisque;
   border-radius: 5px;
-  background: #fd6e0a;
-  border: none;
-  width: 150px;
-  height: 64px;
+  border: 4px solid tomato;
+  padding: 10px;
 }
-.nav-name {
-  color: var(--Dark-01, #181818);
-  font-size: 45px;
+.header{
+  grid-area: header;
 }
-.nav-options a {
-  color: var(--Dark-02, #474747);
-  font-size: 20px;
-  text-decoration: none;
+.nav{
+  grid-area: nav;
 }
-.nav-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px 230px;
+.main{
+  grid-area: main;
 }
-.nav-options {
-  display: flex;
-  align-items: center;
-  gap: 50px;
+.sidebar{
+  grid-area: sidebar;
 }
-.nav-options li {
-  list-style: none;
+.advertise{
+  grid-area: advertise;
 }
-.banner {
+.footer{
+  grid-area: footer;
 }
-.banner-greeting {
-  color: var(--Dark-02, #474747);
-  font-size: 45px;
-  margin-top: 0px;
-  margin-bottom: 5px;
+.body{
+  display: grid;
+  grid-template-areas: 
+  "header  header  header  header"
+  "nav     main    main    sidebar"
+  "nav     main    main    advertise"
+  "footer  footer  footer  footer";
+  gap: 10px;
+
 }
-.banner-name {
-  color: var(--Dark-01, #181818);
-  font-size: 85px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-.banner-content {
-  color: var(--Dark-03, #757575);
-  font-size: 18px;
-  max-width: 500px;
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
-.banner-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 185px 38px 0px 230px;
-  align-items: center;
-}
-.about-information {
-  display: flex;
-  gap: 50px;
-}
-.about-me {
-  color: var(--Dark-01, #181818);
-  text-align: center;
-  font-size: 35px;
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
-.about-objective {
-  color: var(--Dark-03, #757575);
-  text-align: center;
-  font-size: 18px;
-  line-height: 30px; /* 166.667% */
-  width: 100% 727px;
-  height: auto 120px;
-}
-.about-information {
-  color: #757575;
-  font-size: 20px;
-  line-height: 30px;
-  justify-content: center;
-  text-align: center;
-}
-.info-ans {
-  color: #474747;
-}
-.about-info-container {
-  margin: 130px 230px;
-  padding: 131px 156px;
+
+@media screen and (max-width: 576px) {
+     .body{
+      grid-template-areas: 
+      "header"
+      "nav"
+      "main"
+      "sidebar"
+      "advertise"
+      "footer";
 }
