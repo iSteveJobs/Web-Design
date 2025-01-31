@@ -54,6 +54,7 @@
   border-radius: 8px;
   background: #52c303;
   border: none;
+  cursor: pointer;
 }
 .card-box-description-container {
   display: flex;
