@@ -1,0 +1,20 @@
+.box{
+    border: 3px solid tomato;
+    width: 500px;
+    height: 300px;
+    overflow: auto;  /*jetate lagbe sekhane nibe, box 3 e nisce na */
+}
+/* #box-1{
+    overflow: scroll;
+}
+#box-2{
+    overflow: hidden;
+} */
+
+.me{
+    border: 3px solid blue;
+    width: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}

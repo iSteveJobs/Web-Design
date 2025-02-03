@@ -1,0 +1,29 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid tomato;
+    background-color: peru;
+
+    /* transition  syntax*/ 
+    /*syntax: property name | duration */
+/* transition: width 4s; */
+
+/* property name | duration | delay */
+/* transition: width 4s 5s; */
+
+/* check this website and practice: https://developer.mozilla.org/en-US/docs/Web/CSS/transition */
+/* property name | duration | easing function | delay */
+/* transition: width 5s linear 3s, background-color 3s ease-in 2s; */
+
+/* second hover */
+transition: transform 7s;
+
+}
+/* . box:hover{
+    width: 400px;
+    background-color: red;
+} */
+
+.box:hover{
+    transform: rotate(45deg)
+}

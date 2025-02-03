@@ -3,44 +3,188 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="practice.css" />
-    <title>Practice</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Penguin</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <style>
+      .font-bebas {
+        font-family: "Bebas Neue", serif;
+        font-weight: 400;
+      }
+      .font-roboto {
+        font-family: "Roboto", serif;
+        font-weight: 400;
+      }
+      .color-blue{
+        color: #363958;
+      }
+      .color-gray{
+        color: #3E3E3E;
+      }
+    </style>
   </head>
-  <body class="body">
-     <header class="header">
-         <div>
-          <h3>The Header</h3>
-         </div>
-     </header>
-     <nav class="nav">
-       <ul>
-        <li><a href="">nav - 1</a></li>
-       </ul>
-       <ul>
-        <li><a href="">nav - 2</a></li>
-       </ul>
-       <ul>
-        <li><a href="">nav - 3</a></li>
-       </ul>
-     </nav>
-     <main class="main">
-        <div class="article">
-          <h3>Main article area - 1</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet accusantium error porro iusto quas. Molestiae perspiciatis dolor numquam porro totam.</p>
+  <body class="font-roboto">
+    <header class="bg-[#FFFBF0] pl-4">
+      <nav></nav>
+
+      <!-- banner section -->
+      <section>
+        <div class="md:flex items-center justify-between md:px-36">
+          <div class="space-y-3">
+            <h2 class="font-bebas text-7xl">
+              <span class="text-orange-500">Be the Penguins</span><br />
+              <span class="text-black">of Winter</span>
+            </h2>
+            <p class="text-[#3E3E3E] text-base">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <button
+              class="px-8 py-5 flex font-medium rounded-xl bg-gradient-to-r from-[#A4BC46] to bg-[#85A019] text-[#FFF]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+
+              BUY NOW
+            </button>
+          </div>
+          <div class="">
+            <img
+              src="Milestone3/Mo13/Penguin-Fashion-Using-Tailwind/images/model.png"
+              alt=""
+            />
+          </div>
         </div>
-        <div class="article">
-          <h3>Main article area - 2</h3>
-          <p>Exercitationem officia nulla asperiores tenetur in sit labore numquam id. Sequi iusto unde et omnis distinctio voluptatum earum autem cupiditate!</p>
+      </section>
+    </header>
+    <main class="my-12 max-w-7xl mx-auto">
+      <!-- section for Women Jacket-->
+      <div class="my-12">
+        <h2 class="uppercase font-bebas text-[#363958] text-5xl py-5">
+          Woman Jacket
+        </h2>
+        <div class="md:grid grid-cols-3">
+          <div class="p-5 space-y-3 rounded-2xl drop-shadow-lg">
+            <img class="bg-[#F1F1F1] p-5 rounded-2xl" src="Milestone3/Mo13/Penguin-Fashion-Using-Tailwind/images/jacket-1.png" alt="" />
+            <h3 class="color-blue text-2xl font-bold">Yellow Coat Jacket </h3>
+            <p class="color-gray">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex items-center justify-between">
+              <h3 class="text-4xl font-extrabold text-[#FABE4C]">$234</h3>
+              <button
+              class="px-8 py-5 flex font-medium rounded-xl bg-gradient-to-r from-[#A4BC46] to bg-[#85A019] text-[#FFF]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+
+              BUY NOW
+            </button>
+            </div>
+          </div>
+          <div class="p-5 space-y-3 rounded-2xl drop-shadow-lg">
+            <img class="bg-[#F1F1F1] p-5 rounded-2xl" src="Milestone3/Mo13/Penguin-Fashion-Using-Tailwind/images/jacket-2.png" alt="" />
+            <h3 class="color-blue text-2xl font-bold">Yellow Coat Jacket </h3>
+            <p class="color-gray">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex items-center justify-between">
+              <h3 class="text-4xl font-extrabold text-[#FABE4C]">$234</h3>
+              <button
+              class="px-8 py-5 flex font-medium rounded-xl bg-gradient-to-r from-[#A4BC46] to bg-[#85A019] text-[#FFF]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+
+              BUY NOW
+            </button>
+            </div>
+          </div>
+          <div class="p-5 space-y-3 rounded-2xl drop-shadow-lg">
+            <img class="bg-[#F1F1F1] p-5 rounded-2xl" src="Milestone3/Mo13/Penguin-Fashion-Using-Tailwind/images/jacket-3.png" alt="" />
+            <h3 class="color-blue text-2xl font-bold">Yellow Coat Jacket </h3>
+            <p class="color-gray">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="flex items-center justify-between">
+              <h3 class="text-4xl font-extrabold text-[#FABE4C]">$234</h3>
+              <button
+              class="px-8 py-5 flex font-medium rounded-xl bg-gradient-to-r from-[#A4BC46] to bg-[#85A019] text-[#FFF]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+
+              BUY NOW
+            </button>
+            </div>
+          </div>
         </div>
-     </main>
-     <div class="sidebar">
-      <h3>Sidebar</h3>
-     </div>
-     <div class="advertise">
-      <h3>Advertise</h3>
-     </div>
-     <footer class="footer">
-        <h3>The Footer</h3>
-     </footer>
+      </div>
+    </main>
+    <footer></footer>
   </body>
 </html>
